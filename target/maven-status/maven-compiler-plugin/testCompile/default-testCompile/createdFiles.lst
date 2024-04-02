@@ -1,0 +1,9 @@
+com\epaynexus\www\FactureTest.class
+com\epaynexus\www\InscriptionSalarieTest.class
+com\epaynexus\www\DemandeCreationCompteTest.class
+com\epaynexus\www\InscriptionCommercantTest.class
+com\epaynexus\www\CommandeTest.class
+com\epaynexus\www\InscriptionAdministrateurTest.class
+com\epaynexus\www\InscriptionEmployeurTest.class
+com\epaynexus\www\TransactionTest.class
+com\epaynexus\www\CarteVirtuelleTest.class

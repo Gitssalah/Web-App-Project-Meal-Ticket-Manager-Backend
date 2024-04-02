@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.epaynexus.www.TransactionTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.086 s <<< FAILURE! -- in com.epaynexus.www.TransactionTest
+com.epaynexus.www.TransactionTest.creerDemandeTest -- Time elapsed: 0.007 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.epaynexus.www.service.CarteVirtuelleService.getCarteVirtuelleByNum(String)" because "this.carteVirtuelleService" is null
+	at com.epaynexus.www.service.TransactionServiceImpl.ajouterTransaction(TransactionServiceImpl.java:36)
+	at com.epaynexus.www.TransactionTest.creerDemandeTest(TransactionTest.java:62)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
